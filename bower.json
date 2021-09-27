@@ -1,0 +1,26 @@
+{
+  "name": "ND Copiadoras",
+  "description": "Site",
+  "main": "index.html",
+  "keywords": [
+    "impressora",
+    "site",
+    "web"
+  ],
+  "authors": [
+    "Marcelo Farias"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}

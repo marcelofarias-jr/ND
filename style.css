@@ -1,0 +1,277 @@
+body{
+	overflow-x: hidden;
+}
+body p, h2{
+	margin: 0;
+}
+/************************************ TOP ************************************/
+.top{
+	width: 100%;
+	height: 40px;
+	background-color: #009019;
+}
+.endereço{
+	display: inline-block;
+	float: left;
+	position: relative;
+	font-family: Oswald;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+.endereço p{
+	color: #fff;
+	font-size: 20px;
+	font-family: Oswald;
+	list-style: none;
+	float: left;
+	margin-right: 150px;
+	margin-bottom: 10px;
+	line-height: 37px;
+}
+.linkmapa p:hover{
+	text-decoration: underline;
+}
+/************************************ BANNER ************************************/
+.banner{
+	width: 103%;
+	height: 460px;
+	margin-left: -15px;
+	position: relative;
+	background: url('imagens/banner.400x1400.png');
+	}
+.formulariofundo{
+	background-color: #666;
+	opacity: 0.9;
+	padding-top:3px;
+	margin-left: 35px;
+	margin-top: 15px;
+	border-radius: 10px;
+	height: 430px;
+	width: 130%;
+}
+.formulario {
+	color: #fff;
+	height: 440px;
+	width: 95%;
+	padding-left: 5%;
+	padding-top:3px;
+	margin-left: 35px;
+	margin-top: 15px;
+	border-radius: 10px;
+	font-family: Hind;
+}
+.formulario label{
+	color: #fff;
+	font-size: 15px;
+}
+.formulario h3{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.formulario button{
+	margin-top: 15px;
+	background-color: black;
+	width: 140px;
+}
+.formulario button:hover{
+	background-color: #666;
+	color: #fff;
+}
+.logo{
+	margin-top: 17px;
+	text-align: center;
+}
+.logo img{
+	display: inline;
+	float: left;
+	width: 40%;
+	margin-left: 360px;
+}
+.logo h1{
+	display: inline-block;
+	font-family: Hind;
+	color:#fff;
+	font-size: 70px;
+	margin-left: 340px;
+}
+.form-group label,input{
+	padding-top: 10px;
+}
+/************************************ VANTAGENS ************************************/
+.ilustra{
+	background: url('imagens/vantagens.400x1400.png');
+	height: 400px;
+	margin-left: -15px;
+	width: 103%;
+}
+.vantagens{
+	width: 100%;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+.vantagens h2{
+	color: #fff;
+	font-family: Hind;
+	padding-left: 550px;
+	font-size: 45px;
+	font-weight: bold;
+}
+.vantagens ul{
+	padding: 25px 30px 30px 650px ;
+}
+.vantagens li{
+	padding:8px; 
+	color: #fff;
+	font-family: Hind;
+	font-size: 30px;
+}
+.vantagens li:hover{
+	color: #000;
+	text-decoration: none;
+}
+.vantagens a:hover{
+	text-decoration: none;
+}
+.modal-body{
+	background: #fff;
+}
+.modal-footer{
+	float: left;
+	background: #fff;
+	width: 100%;
+}
+.modal-footer p{
+	color: #000;
+}
+.modal-footer i{
+	color: #000;
+}
+.modal-header{
+	background: #fff;
+}
+.modal-title img{
+	width: 90px;
+	height: auto;
+	float: left;
+}
+/************************************ SOMOS ************************************/
+.somos{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	height: 500px;
+	text-align: center;
+}
+.somos h1{
+	font-family: Hind;
+	color: #000;
+	font-weight: bold;
+}
+.somos p{
+	font-family: Hind;
+	font-weight: bold;
+	font-size: 20px;
+}
+.somos img{
+	width: 700px;
+	height: auto;
+	margin: 20px auto 20px auto;
+}
+/************************************ Modelos ************************************/
+.modelos{
+	margin-top: 240px;
+	width: 100%;
+	height: 800px;
+}
+.modelos h2{
+	text-align: center;
+	margin: 20px 0 20px 0;
+	padding-top: 10px;
+}
+#modelos-carousel{
+	width: 70%;
+	height: 500px;
+	margin: auto;
+	background-color: #fff;
+}
+/************************************ Carousel ************************************/
+.carousel-item{
+	width: 100%;
+	height: 670px;
+}
+.carousel-item img{
+	width: 300px;
+	height: 500px;
+}
+.carousel-caption h2,p{
+	opacity: 0.9;
+	font-family:Hind ;
+	margin-top: 50px;
+	width: 100%;
+}
+.carousel-caption p{
+	font-size: 20px;
+	color: #000;
+}
+.carousel-caption h2{
+	color: #1A470B;
+}
+.carousel-caption{
+	padding-top: 150px;
+}
+.glyphicon-chevron-left{
+	color: black;
+	font-size: 50px;
+}
+.glyphicon-chevron-right{
+	color: black;
+	font-size: 50px;
+}
+
+/************************************ RODAPE ************************************/
+.rodape{
+	margin-top: 20px;
+	margin-left: -15px;
+	height: 40px;
+	width: 110%;
+	background-color: #009019;
+}
+.endereçoroda{
+	color: #fff;
+	font-size: 20px;
+	font-family: Oswald;
+	list-style: none;
+	float: left;
+	position: relative;
+	line-height: 20px;
+	padding-left: 50px;
+
+}
+.endereçoroda p{
+	color: #fff;
+	font-size: 20px;
+	font-family: Oswald;
+	list-style: none;
+	float: left;
+	margin-right: 150px;
+	margin-bottom: 10px;
+	line-height: 37px;
+}
+.copy{
+	height: 40px;
+	width: 110%;
+	margin-left: -15px;
+	margin-top: -7px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #fff;
+	background: #000;
+}
+.copy p{
+	text-align: center;
+	margin-left: 10px;
+}
+.copy i{
+	line-height: 40px;
+}
