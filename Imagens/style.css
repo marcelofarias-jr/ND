@@ -1,0 +1,98 @@
+body{
+
+}
+/************************************ TOP ************************************/
+.top{
+	width: 100%;
+	height: 40px;
+	background-color: #68A82E;
+}
+.top p{
+	color: #FFF;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 40px;
+	font-family: Hind;
+}
+.endereço{
+	display: inline-block;
+	width: 50%;
+	padding-left: 50px;
+	line-height: 35px;
+}
+.telefone{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding-right: 50px;
+	line-height: 35px;
+}
+/************************************ BANNER ************************************/
+.banner{
+	width: 100%;
+	height: 400px;
+	margin-top: -10px;
+	position: relative;
+	background-color: #444444;
+	}
+.formulario {
+	background-color: white;
+	height: 340px;
+	width: 90%;
+	padding-left: 4%;
+	padding-top: 4px;
+	opacity: 0.95;
+	margin-left: 35px;
+	margin-top: 15px;
+	border-radius: 10px;
+	font-family: Hind;
+}
+.logo{
+	margin-top: 17px;
+	text-align: center;
+}
+.logo img{
+	display: inline-block;
+	float: left;
+}
+.logo h1{
+	display: inline-block;
+	font-family: Hind;
+	color:#68A82E;
+}
+/************************************ VANTAGENS ************************************/
+.ilustra{
+	background-color: #68A82E;
+	height: 400px;
+}
+.vantagens{
+	background-color: #68A82E;
+	height: 400px;
+}
+.vantagens li{
+	list-style: none;
+	padding-top: 10px;
+}
+/************************************ SOMOS ************************************/
+.somos{
+	height: 500px;
+	text-align: center;
+	font-family: Hind;
+}
+.somos h1{
+	font-family: Hind;
+}
+.somos p{
+	font-family: Hind;
+	font-weight: bold;
+	font-size: 20px;
+}
+.modelos{
+	background-color: #888888
+}
+.carousel-item img{
+	width: 350px;
+	height: 450px;
+
+}
